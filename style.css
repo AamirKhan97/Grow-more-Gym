@@ -1,0 +1,61 @@
+
+
+ html {
+    scroll-behavior: smooth;
+}
+
+.navbar-yellow{
+    background: linear-gradient(45deg,rgb(94, 232, 15),rgb(48, 228, 99),rgb(94, 232, 15));
+    padding: 3px;
+    border-top-right-radius: 25px;
+    border: 3px solid yellow;
+    position: relative;
+    top: 15px;
+}
+.btn-yellow , .bg-yellow{
+    background: linear-gradient(45deg,rgb(94, 232, 15),rgb(48, 228, 99),rgb(94, 232, 15));
+}
+.bg-mix{
+    padding: 5px;
+}
+.butt{
+    background-color: rgba(0, 0, 0, 0.5) ;
+}
+.back-image{
+    background: white url(images/pexels-leon-martinez-1552242.jpg) no-repeat scroll center;
+    height: 100vh;
+    background-size: cover;
+}
+.back-overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+.style-btn{
+    margin-top: 200px;
+}
+
+@keyframes glow-icon{
+    0% , 100%{
+        transform: scale(1,1);
+    }
+    50%{
+        transform: scale(1.07,1.07);
+        box-shadow: 0 0 10px white;
+    }
+}
+    .white-hover:hover{
+        transform: scale(1.05,1.05);
+        transition: all 0.5s;
+        box-shadow: 0 5px 5px yellowgreen;
+        
+    }
+    .form-cust:hover{
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        font-family: fantasy;
+    }
+    
+
+
+
+
